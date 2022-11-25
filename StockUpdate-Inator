@@ -9,8 +9,12 @@ from googleapiclient import discovery #write in Gsheet
 
 
 # SCOPES = ['https://www.googleapis.com/auth/sqlservice.admin']
+
+#
 #.json of your GSHEET API Address
-SERVICE_ACCOUNT_FILE = 'D:\Lakshay\P\Investing\keys.json' 
+SERVICE_ACCOUNT_FILE = 'keys.json' 
+#
+
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
 creds = None
 creds = service_account.Credentials.from_service_account_file(
